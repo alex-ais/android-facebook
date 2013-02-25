@@ -67,7 +67,7 @@ public class FbDialog extends Dialog {
         super.onCreate(savedInstanceState);
         mSpinner = new ProgressDialog(getContext());
         mSpinner.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        mSpinner.setMessage("Loading...");
+        mSpinner.setMessage("Пожалуйста подождите...");
 
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         mContent = new FrameLayout(getContext());
